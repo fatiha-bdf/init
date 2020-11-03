@@ -1,0 +1,4 @@
+cat /etc/passwd| awk -F: '{print $ 1}'
+
+# https://murviel-info-beziers.com/commandes-linux-debian/
+# https://technique.arscenic.org/commandes-linux-de-base/la-gestion-des-utilisateurs/article/ajout-et-suppression-d-utilisateurs

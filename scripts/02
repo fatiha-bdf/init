@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo passwd -d username
+sudo killall -KILL username
+userdel -r username

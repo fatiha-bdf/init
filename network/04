@@ -1,0 +1,2 @@
+route get default
+netstat -rn | grep -m 1 default (-m 1 = first ocurence of Default)

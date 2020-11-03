@@ -1,0 +1,6 @@
+nat-1 (10.60.1.11)
+NAT = Network Address Translation
+La fonction NAT dans un routeur de service intégré (ISR) traduit une adresse IP source interne en adresse IP globale
+et de ce fait etablie le lien entre un reseau local et l'exterieur.
+
+source : https://fr.wikipedia.org/wiki/Network_address_translation

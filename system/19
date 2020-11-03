@@ -1,0 +1,26 @@
+Aller dans /etc/init.d
+
+Services qui se lancent automatiquement lorsque la machine boot : 
+console-setup.sh   networking
+cron               procps
+dbus               rsync
+hwclock.sh         rsyslog
+irqbalance         ssh
+keyboard-setup.sh  sudo
+kmod               udev
+nom donné à ce type de service = la méthode de gestion des services système = daemon
+
+
+
+a noter :
+Listé dans /etc/rc*.d comme ceci :
+S01console-setup.sh  S01cron  S01dbus  S01irqbalance  S01rsync  S01rsyslog  S01ssh
+K01hwclock.sh  K01networking K01irqbalance  K01rsyslog ... etc
+Premiere Lettre S = Start
+                k = Kill
+
+
+voir aussi commande : sudo sysv-rc-conf --list
+
+sources : https://doc.ubuntu-fr.org/script_sysv
+https://serverfault.com/questions/472030/how-to-list-services-daemons-started-at-boot-and-check-their-loading-order
